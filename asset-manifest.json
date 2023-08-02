@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/greatVibes/static/css/main.38107973.css",
+    "main.js": "/greatVibes/static/js/main.c3e73580.js",
+    "index.html": "/greatVibes/index.html",
+    "main.38107973.css.map": "/greatVibes/static/css/main.38107973.css.map",
+    "main.c3e73580.js.map": "/greatVibes/static/js/main.c3e73580.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38107973.css",
+    "static/js/main.c3e73580.js"
+  ]
+}
