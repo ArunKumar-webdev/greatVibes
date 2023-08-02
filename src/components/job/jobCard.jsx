@@ -58,7 +58,7 @@ const JobCard = ({ job }) => {
         >
           <button
             type="button"
-            className="absolute top-4 right-4"
+            className="absolute top-4 right-4 rounded-lg bg-button-primary h-6 w-6 flex justify-center items-center"
             onClick={() => triggerEditModal(job.id)}
           >
             <svg
@@ -77,7 +77,7 @@ const JobCard = ({ job }) => {
             </svg>
           </button>
           <button
-            className="absolute top-4 right-11"
+            className="absolute top-4 right-11 rounded-lg bg-[#E6E6E6] h-6 w-6 flex justify-center items-center"
             type="button"
             onClick={triggerDeleteModal}
           >
