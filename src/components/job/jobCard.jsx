@@ -58,7 +58,7 @@ const JobCard = ({ job }) => {
         >
           <button
             type="button"
-            className="absolute top-4 right-4 rounded-lg bg-button-primary h-6 w-6 flex justify-center items-center"
+            className="absolute bottom-4 md:top-4 right-4 rounded-lg bg-button-primary h-6 w-6 flex justify-center items-center"
             onClick={() => triggerEditModal(job.id)}
           >
             <svg
@@ -77,7 +77,7 @@ const JobCard = ({ job }) => {
             </svg>
           </button>
           <button
-            className="absolute top-4 right-11 rounded-lg bg-[#E6E6E6] h-6 w-6 flex justify-center items-center"
+            className="absolute bottom-4 md:top-4 right-14 rounded-lg bg-[#E6E6E6] h-6 w-6 flex justify-center items-center"
             type="button"
             onClick={triggerDeleteModal}
           >
@@ -136,9 +136,9 @@ const JobCard = ({ job }) => {
                 <JobForm jobData={jobData} closeModal={closeJobFormModal} />
               </Modal>
             </aside>
-            <aside className="font-light ">
-              <article className="mb-5 text-dark lg:text-sm 2xl:text-base">
-                <p className="text-xl 2xl:text-2xl">{job.jobTitle}</p>
+            <aside className="font-light w-[60%] ">
+              <article className="mb-5 text-dark lg:text-sm 2xl:text-base ">
+                <p className="text-xl 2xl:text-2xl text-uppercase truncate" title={job.jobTitle}>{job.jobTitle}</p>
                 <p>
                   {job.companyName} - {job.industry}
                 </p>
