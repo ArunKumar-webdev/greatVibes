@@ -56,7 +56,7 @@ const Jobs = ({ handleModalOpen }) => {
           data-dial-trigger="click"
           aria-controls="speed-dial-menu-click"
           aria-expanded="false"
-          className={`${flexCenter} w-14 h-14 rounded-full text-white bg-button-primary hover:bg-button-primary focus:ring-4 focus:ring-button-primary focus:outline-none dark:bg-button-primary dark:hover:bg-button-primary dark:focus:ring-button-primary`}
+          className={`${flexCenter} w-14 h-14 rounded-full text-white bg-[#212121] hover:bg-[#212121] focus:outline-none`}
         >
           <svg
             aria-hidden="true"
