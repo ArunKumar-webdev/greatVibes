@@ -49,7 +49,7 @@ const JobCard = ({ job }) => {
     "inline-flex justify-center px-4 py-2 text-sm font-medium rounded-md focus-visible:ring-2 focus-visible:ring-offset-2";
   let cardButtonStyle =
     "py-2 mt-6 px-4 text-sm border-[1px] border-button-primary rounded-md inline-block";
-  let cardWidth = "xs:w-[295px]  md:w-[630px]";
+  let cardWidth = "w-[295px]  md:w-[630px]";
   return (
     <>
       <main>
